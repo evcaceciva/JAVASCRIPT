@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Komplexní webová stránka</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="" class="logo">
+                EVA ČEČIVA
+            </a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#welcome">Úvod</a>
+                    </li>
+
+                    <li>
+                        <a href="#form">Porovnání hesla</a>
+                    </li>
+                    <li>
+                        <a href="#footer">Patička</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="menu-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <button class="mode">
+                <span class="dark-mode">
+                    Tmavý režim
+                </span>
+                <span class="light-mode selected">
+                    Světlý režim
+                </span>
+            </button>
+        </header>
+        
+        <section class="welcome" id="welcome">
+            <div class="image-wrap">
+                <div class="img" style="background:url(images/james-wheeler-ZOA-cqKuJAA-unsplash.jpg) center center no-repeat;"></div>
+            </div>
+            <div class="image-wrap">
+                <div class="img" style="background:url(images/simon-english-48nerZQCHgo-unsplash.jpg) center center no-repeat;"></div>
+            </div>
+            <div class="image-wrap">
+                <div class="img" style="background:url(images/omer-salom-LoijtQXXNhs-unsplash.jpg) center center no-repeat;"></div>
+            </div>
+        </section>
+
+        <section class="form" id="form">
+            <div class="content">
+                <h1>
+                    Porovnání hesla
+                </h1>
+                <label>
+                    Heslo
+                </label>
+                <input type="password" id="password1">
+                <label>
+                    Heslo znova*
+                </label>
+                <input type="password" id="password2">
+                <button class="porovnathesla">
+                    Porovnat
+                </button>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="content">
+                <a href="">Kontakt</a>
+                <p>
+                    © 2023 Všechna práva vyhrazena
+                </p>
+            </div>
+        </footer>
+        <a href="#welcome" class="sipka-nahoru" id="sipka">
+            <img src="images/top-arrow-to-top.png" alt="sipka nahoru">
+        </a>
+    </body>
+</html>
